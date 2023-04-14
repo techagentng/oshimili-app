@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField';
 import Search from '../../components/searchComponent';
 import Togglebtn from '../../components/togglecomp';
 import { Button } from '@mui/material';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@mui/material/styles';
 import SidebarMobile from '../../components/navigation/sidbarMobile';
 
 const currencies = [

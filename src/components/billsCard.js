@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import { CardHeader } from '@material-ui/core';
+import { CardHeader } from '@mui/material';
 import { makeStyles } from '@mui/styles';
 import LocationSearchingIcon from '@mui/icons-material/LocationSearching';
 import { Button, IconButton, Typography } from '@mui/material';

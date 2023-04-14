@@ -1,7 +1,7 @@
 import React from 'react';
 import './success.css'
 import Markline from '../../img/markline.png'
-import { Button } from '@material-ui/core';
+import { Button } from '@mui/material';
 import SidebarMobile from '../../components/navigation/sidbarMobile';
 import {Link} from "react-router-dom";
   
