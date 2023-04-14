@@ -48,6 +48,7 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    margin-left: 30px;
 }
 .billsbtn:hover {
     cursor: pointer;
