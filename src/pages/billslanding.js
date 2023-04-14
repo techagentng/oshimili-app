@@ -6,7 +6,7 @@ import bg1 from "../img/cityboy.jpg"
 import {Link} from "react-router-dom"
 
 function BillsLanding(){
-    function gotoroute(){
+    function Gotoroute(){
         let navigate = useNavigate()
         navigate("/airtimedata")
     }
@@ -19,7 +19,7 @@ function BillsLanding(){
                 <div className='billsLandingBox'>
                     <img src={Logolanding} alt="pic"/>                   
                 </div>
-                <Link to="/success" className='billsbtn' onClick={gotoroute}>ENTER</Link>
+                <Link to="/success" className='billsbtn' onClick={Gotoroute}>ENTER</Link>
             </div>
         </>
     )

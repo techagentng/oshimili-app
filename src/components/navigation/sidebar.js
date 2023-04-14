@@ -13,7 +13,7 @@ const useStyles = styled(theme => ({
         cursor:"pointer",
     }
 }))
-export default function sidebar({children}){
+export default function Sidebar({children}){
     const [isOpen, setisOpen] = useState(true)
     const [isMobile, setIsMobile] = useState(false);
     const toggle = ()=> setisOpen(!isOpen)
