@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/table.css';
-import { makeStyles, withStyles } from "@mui/material/styles";
+import { makeStyles, withStyles } from "@mui/styles";
 import MuiTableHead from "@mui/material/TableHead";
 import Grid from '@mui/material/Grid';
 import { TableContainer, 
