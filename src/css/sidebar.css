@@ -1,0 +1,49 @@
+.sidenav-container {
+    position: fixed;
+    height: 100%;
+    width: 260px;
+    background-color: #596572;
+    transition: width .1s;
+    z-index: 2888;
+}
+.sidenav-container.clicked {
+    width: 60px;
+}
+.sidebar-top {
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sidebar-top > img {
+    width: 300px;
+}
+.sidebar-bottom {
+    height: 70%;
+}
+img.cirlogo {
+    width: 100px;
+    margin-left: 20px;
+}
+.css-i4bv87-MuiSvgIcon-root {
+    color: white;
+}
+.css-5zvpd-MuiTypography-root {
+    width: 100%;
+    padding: 0 20px;
+}
+@media(max-width: 600px) {
+    .sidenav-container {
+        height: 100vh;
+        display: none;
+    }
+    .nav-body {
+        height: 100vh;
+    }
+    img.cirlogo {
+        width: 80px;
+        margin-left: 20px;
+    }
+}

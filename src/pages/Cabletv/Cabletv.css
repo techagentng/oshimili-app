@@ -1,0 +1,253 @@
+.cabletv-cont {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+.holdit {
+    width: 100vw;
+    display: flex;
+    padding-top: 100px;
+}
+.dwrap {
+    margin-top: 50px;
+    background-color: red;
+    margin-left: 75px;
+}
+.dwrap__shift {
+    margin-left: 200px !important;
+}
+.cabletv-left {
+    width: 50%;
+    background-color: #a1adbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cabletv-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+}
+.search-space {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    position: absolute;
+}
+.recharge {
+    width: 300px;
+    height: 400px;
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.rechargeHeader {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.rechargeHeader p {
+    font-weight: bold;
+}
+.cabletv-right-head {
+    width: 100%;
+    height: 230px;
+}
+.cabletv-right-recharge{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.dstv{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.dstv img {
+    width: 60px;
+}
+.cabletv-right-recharge p {
+    padding: 5px 0;
+    margin: 0;
+    font-size: 14px;
+    color: rgb(147, 143, 143);
+    margin-left: 20px;
+}
+.inner-recharge {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+}
+.input-box1 {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+.input-box2 {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.cable-rightBottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.cable-rightBottom h4 {
+    color: rgba(0, 0, 0, 0.25);
+}
+.cable-rightTop {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.25);
+}
+.mobNumber {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.step1Box {
+    width: 750px;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabletvBtn {
+   border-radius: 10px; 
+   width: 80%;
+   margin-top: 56px;
+   background-color: black;
+   font-size: 10px;
+}
+.cabletvBtn-left {
+    border-radius: 10px; 
+    width: 80%;
+ }
+.sideLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 100px;
+    background-color: #828181;
+    font-weight: bold;
+    font-family: Inter var,Roboto,"Helvetica",Arial,sans-serif;
+    padding: 0 17px;
+    text-decoration: none;
+}
+.sideLinks img {
+    width: 70px;
+}
+
+@media(max-width: 600px) {
+    .cabletv-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+    }
+    .dwrap {
+        margin-top: 50px;
+        background-color: red;
+    }
+    .cabletvBtn {
+        border-radius: 10px; 
+        width: 100%;
+        margin-top: 56px;
+        background-color: black;
+        font-size: 10px;
+     }
+    .cabletv-left{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .cabletv-right {
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    .input-box2 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .search-space {
+        display: none;
+    }
+    .step1Box {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 60%;
+    }
+    .step1Box img {
+        width: 40px;
+    }
+    .sideLinks {
+        margin-bottom: 20px;
+        font-size: 14px;
+        justify-content: space-between;
+        width: 180px;
+    }
+    .recharge {
+        height: 350px;
+    }
+    .step1 {
+        margin-top: 0;
+    }
+    .holdit {
+    width: 100vw;
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+}
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .cabletv-cont {
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+   
+}

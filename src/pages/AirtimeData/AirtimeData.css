@@ -1,0 +1,124 @@
+body {
+    background-image: url('./../../img/cityboy.jpg'), url('./../../img/zb.jpg');
+    background-repeat: no-repeat, repeat-x;
+    background-position: center center, top left;
+    background-size: cover;
+    animation: backgroundAnimation 1s ease infinite;
+    overflow: hidden;
+}
+
+@keyframes backgroundAnimation {
+
+  }
+
+.search-head {
+    height: 60px;
+    margin-bottom: 10px;
+    width: 78%;
+    margin-left: 240px;
+}
+.search-header {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 290px;
+    padding: 30px 40px 0 30px;
+}
+.search-head p {
+    font-weight: bold;
+    color: #596572;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    background-color: burlywood;
+    font-family: Inter var,Roboto,"Helvetica",Arial,sans-serif;
+}
+.billsContainer {
+    margin-left: 280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.billsContainer__shift {
+    margin-left: 380px;
+}
+.leftTexField {
+    width: 200px;
+    height: 100%;
+}
+.mobile-search {
+    width: 300px;
+    height: 70px;
+    background-color: rgb(110, 109, 109);
+}
+@media only screen and (min-width: 992px) {
+    .mobile-search {
+        display: none;
+    }
+}
+@media(max-width: 600px){
+    .billsContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+        margin-top: 300px;
+    } 
+    .billswrap {
+        margin-top: 80px;
+        height: 900px;
+        width: 100%;
+    }
+    .search-head {
+        display: none;
+    }
+    .search-header {
+        display: none;
+    }
+    .mobile-search {
+        width: 212px;
+    }
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+    .mobile-search {
+        display: block;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .search-header {
+        width: 860px;
+    }
+}
+@media(max-device-width : 820px) {
+    .mobile-search {
+        display: none;
+    }
+    .search-header {
+        width: 500px;
+        margin: 50px auto;
+    }
+    .sidenav-container {
+        display: none;
+    }
+    .billsContainer {
+        
+        margin: 0 auto;
+        width: 550px;
+        margin-top: 20px;
+        padding-left: 20px;
+    }
+}
+  
+@media(max-device-width : 390px) {
+    .billsContainer {
+        width: 90%;
+        margin-top: 40px;
+    }
+}

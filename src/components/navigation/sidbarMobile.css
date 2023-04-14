@@ -1,0 +1,29 @@
+.ham {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    z-index: 201;
+}
+.mobileSIdeNav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    background-color: #596572;
+    height: 100vh;
+    z-index: 200;
+}
+.mobileSIdeNavb{
+    display: none;
+}
+.mobileSIdeNav ul li{
+    color: white;
+    list-style: none;
+}
+
+
+ @media(min-width: 1000px) {
+  .mobMenu {
+    display: none;
+  }
+} 
