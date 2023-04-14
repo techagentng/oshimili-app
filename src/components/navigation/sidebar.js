@@ -6,14 +6,13 @@ import menuData from "./sidebarData";
 import RoutepayLogo from "../../img/RoutePay Logo 2.png";
 import MenuList from '@mui/material/MenuList';
 import MenuIcon from '@mui/icons-material/Menu';
-import { makeStyles } from '@mui/styles';
+import styled from "@emotion/styled"
 
-const useStyles = makeStyles({
+const useStyles = styled(theme => ({
     MenuIcon:{
         cursor:"pointer",
     }
-})
-
+}))
 export default function sidebar({children}){
     const [isOpen, setisOpen] = useState(true)
     const [isMobile, setIsMobile] = useState(false);

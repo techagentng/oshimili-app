@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/table.css';
-import { makeStyles, withStyles } from "@mui/styles";
+import styled from '@emotion/styled';
 import MuiTableHead from "@mui/material/TableHead";
 import Grid from '@mui/material/Grid';
 import { TableContainer, 
@@ -11,12 +11,13 @@ import { TableContainer,
     TableCell, 
     Paper } from '@mui/material';
     
-    const Tablehead = withStyles(theme => ({
+    const useStyles = styled(theme => ({
         root: {
-          backgroundColor: '#596572',
-          color:'white'
-        }
-      }))(MuiTableHead);
+            backgroundColor: '#596572',
+            color:'white'
+          }
+    }))(MuiTableHead)
+  
 
 const TableComp = () => {
     return (
@@ -25,7 +26,7 @@ const TableComp = () => {
             <Grid item md={12} sx={12}>
             <TableContainer component={Paper}>
                 <Table aria-aria-label='Bills tresp'>
-                    <Tablehead>
+                    <TableHead>
                         <TableRow>
                             <TableCell>id</TableCell>
                             <TableCell>NAME</TableCell>
@@ -34,7 +35,7 @@ const TableComp = () => {
                             <TableCell>Gender</TableCell>
                             <TableCell>Date</TableCell>
                         </TableRow>
-                    </Tablehead>
+                    </TableHead>
                     <TableBody>
                         {tableData.map((row)=>(
                             <TableRow key={row.id} 

@@ -5,12 +5,12 @@ import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import PageviewIcon from '@mui/icons-material/Pageview';
-//import DirectionsIcon from '@mui/icons-material/Directions';
-import { makeStyles } from '@mui/styles';
+import styled from '@emotion/styled';
 
 import "../css/search.css";
 
-const useStyles = makeStyles((theme) => ({
+
+const useStyles = styled(theme => ({
     root: {
       padding: '2px 4px',
       display: 'flex',
@@ -24,7 +24,8 @@ const useStyles = makeStyles((theme) => ({
     iconButton: {
       background: 'red',
     },
-  }));
+}))
+
   
 
   export default function Search() {

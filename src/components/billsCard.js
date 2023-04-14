@@ -3,31 +3,32 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import { CardHeader } from '@mui/material';
-import { makeStyles } from '@mui/styles';
+import { CardHeader } from '@emotion/styled';
+import styled from '@emotion/styled';
 import LocationSearchingIcon from '@mui/icons-material/LocationSearching';
 import { Button, IconButton, Typography } from '@mui/material';
 import {Link} from 'react-router-dom';
 import '../css/bills.css'
 import Ikeja from "./../img/ikeja.png"
-const useStyles = makeStyles((theme)=>({
+
+const useStyles = styled(theme => ({
     headerTitle: {
-      fontSize:'2px',
-      backgroundColor:'blue',
-      fontFamily: 'Inter var,Roboto,"Helvetica",Arial,sans-serif',
-      width:'100%',
-      height:'40px',
-    },
-    root: {
-        width: '45px',
-        [theme.breakpoints.down("sx")] : {
-        maxWidth: 20
-        }
+        fontSize:'2px',
+        backgroundColor:'blue',
+        fontFamily: 'Inter var,Roboto,"Helvetica",Arial,sans-serif',
+        width:'100%',
+        height:'40px',
       },
-  }));
+      root: {
+          width: '45px',
+          [theme.breakpoints.down("sx")] : {
+          maxWidth: 20
+          }
+        },
+}))
+
 
 function BillsCard({text}) {
-    const materializeUIClasses = useStyles();
     return (
         <div className='paper'>            
             <Paper>
