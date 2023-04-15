@@ -15,7 +15,7 @@ function BillsLanding(){
                 <div className='billsLandingBox'>
                     <img src={Logolanding} alt="pic"/>                   
                 </div>
-                <Link to="/success" className='billsbtn'>ENTER</Link>
+                <Link to="#" className='billsbtn'>ENTER</Link>
             </div>
         </>
     )
