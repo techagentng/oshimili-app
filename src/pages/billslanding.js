@@ -11,7 +11,7 @@ function BillsLanding(){
 
     function handleChange(event) {
         setValue(event.target.value);
-        navigate('#');
+        navigate('/bio');
       }
 
     return (
