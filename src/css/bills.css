@@ -172,6 +172,10 @@
     /*Tablets [601px -> 1200px]*/
 }
 @media only screen and (max-width: 600px){
+    .droplanding {
+        width: 200px;
+        margin: 0 auto;
+    }
     .billsLandingBox{        
         margin-left: 40px;
         width: 100%;
