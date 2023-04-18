@@ -4,10 +4,8 @@ import BillsLanding from './pages/billslanding';
 import AirtimeData from './pages/AirtimeData/AirtimeData';
 import BuyBundle from './pages/Cabletv/Cabletv'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import FinanceServices from './pages/FinanceServices/FinanceServices';
-import Sidebar from './components/navigation/sidebar';
+import Biodata from './pages/Forms/bio';
 import DSTV from './pages/Cabletv/Cable1';
-import Home from './pages/Home/Home';
 import Cable2 from './pages/Cabletv/Cable2';
 import Subscribe from './pages/Cabletv/Step1';
 import Success from './pages/Success/success';
@@ -35,7 +33,7 @@ function App() {
                 <Route exact path="/" element={<BillsLanding />}/>
                 <Route exact path="/airtimedata" element={<AirtimeData/>}/>
                 <Route exact path="/success" element={<Success />}/>
-                <Route exact path="/finance-services" element={<FinanceServices />}/>
+                <Route exact path="/bio" element={<Biodata />}/>
                 <Route exact path="/buybundle" element={<BuyBundle />}/>
                 <Route exact path="/sub/dstv" element={<DSTV />}/>
                 <Route exact path="/sub/boxoffice" element={<Cable2 />}/>

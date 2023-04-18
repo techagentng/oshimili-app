@@ -1,5 +1,5 @@
 body {
-    background-image: url('./../../img/cityboy.jpg'), url('./../../img/zb.jpg');
+    /* background-image: url('./../../img/cityboy.jpg'), url('./../../img/zb.jpg'); */
     background-repeat: no-repeat, repeat-x;
     background-position: center center, top left;
     background-size: cover;

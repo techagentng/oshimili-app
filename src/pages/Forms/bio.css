@@ -1,0 +1,29 @@
+.bioWrapper {
+    width: 100vw;
+    display: flex;
+}
+.oshibox-left {
+    width: 600px;
+    background-color: grey;
+}
+.oshibox-right {
+    background-color: rgb(183, 183, 250);
+    width: 60%;
+    height: 100vh;
+}
+.textb {
+    background-color: antiquewhite;
+}
+@media(max-width: 600px) {
+    .bioWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .oshibox-left {
+        display: none;
+    }
+    .oshibox-right{
+        height: 100vh;
+        width: 100%;
+    }
+}
